@@ -57,7 +57,7 @@ describe('studentReducer', () => {
       const newState = studentReducer(state, action);
 
       expect(newState.studentList).not.to.be.undefined;
-      expect(newState.studentList.length).to.be.equals(2);
+      expect(newState.studentList.length).to.be.equals(3);
       expect(newState.studentList[0].id).to.be.equals(1);
     });
   });
